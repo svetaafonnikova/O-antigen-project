@@ -65,4 +65,4 @@ def draw_region_by_coordinates(gff_file, start_, end_, name, prokka=False, gff_w
         graphic_record.crop((start_, end_)).plot(figure_width=10, elevate_outline_annotations=False)
         plt.show()
 
-draw_region_by_coordinates(gff_file, 6117090, 6145406, name, prokka=True, gff_without_fasta="no_fasta.gff")
+# example:  draw_region_by_coordinates(gff_file, 6117090, 6145406, name, prokka=True, gff_without_fasta="no_fasta.gff")
